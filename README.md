@@ -13,7 +13,7 @@ By default, GPS breakout board's baud rate is 9600.
 ## What we need?
 Nikon D7000 requires GPS unit to spit out data at 4800 baud rate
  
-## Why I needed the script/Arduio Nano?
+## Why I needed the script/Arduino Nano?
 Initially, I configured the GPS device using FTDI cable and Raspberry PI. It was easy to send out a single PMTK command to set the baud rate.
 
 However, GPS unit was getting reset to default 9600 baud rate. I googled for reason:
